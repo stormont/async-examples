@@ -1,6 +1,7 @@
 module Lib
-    ( someFunc
+    ( module Client
+    , module Server
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+import Client
+import Server
